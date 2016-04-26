@@ -1,0 +1,21 @@
+\documentclass{standalone}
+\usepackage{tikz}
+% include your required tikz packages here
+%\usetikzlibrary{arrows}
+%\usetikzlibrary{calc}
+%\usetikzlibrary{patterns}
+%\usetikzlibrary{shapes}
+%\usetikzlibrary{%
+%    decorations.pathreplacing,%
+%    decorations.pathmorphing,%
+%    decorations.markings%
+%}
+
+% some custom tikz styles
+\tikzset{
+  conn/.style={thick},
+  site0/.style={circle, fill=white, draw=black, thick, minimum size=0.1cm, inner sep=0pt},
+}
+\begin{document}
+  \input{example.tikz}
+\end{document}
